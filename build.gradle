@@ -128,6 +128,7 @@ subprojects {
 
         shadow "org.apache.flink:flink-clients:${flinkVersion}"
         shadow "org.apache.flink:flink-java:${flinkVersion}"
+        shadow "org.apache.flink:flink-connector-kafka:${flinkVersion}"
         shadow "org.apache.flink:flink-streaming-java:${flinkVersion}"
         shadow "org.apache.flink:flink-streaming-scala_${scalaBinaryVersion}:${flinkVersion}"
 

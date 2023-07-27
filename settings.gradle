@@ -21,6 +21,7 @@ plugins {
 
 rootProject.name = 'flink-training'
 include 'common'
+include 'correlated-calls'
 include 'ride-cleansing'
 include 'rides-and-fares'
 include 'hourly-tips'
